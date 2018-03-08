@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+body {
+color:red;
+	  padding: 25px 50px}
+
+
+
+}
+
+a{font-family: 'Krona One', sans-serif;}
+a:hover {
+    
+    color: black;}
+
+}
+
+p{
+	font-family: 'Oswald ', sans-serif;
+}
+
+
+h1 {
+	text-align: center 
+	
+}
+
+
+
+.topnav a {
+    float: center;
+    color: pink;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+.topnav a:hover {
+    
+    color: blue;}
+
+
+
+
+img {
+    position: relative;
+    float: left;
+    width:  200px;
+    height: 200px;
+   	box-shadow: 15px 10px #888888;
+    border-radius: 20px;}
+
+form { 
+
+	border: 1px solid black;
+	padding: 5px;
+	display: block;
+	margin: 50px; 
+    display:flex;
+	flex-direction:column;
+}
+	
+form {
+ text-align: center;
+
+}
+
+
+
+.flex-container {
+	display:flex;
+	flex-direction:row;
+   }
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+.flex-container {
+	display:flex;
+	flex-direction:column;
+background-color: yellow;
+        
+    }
+}
+
+
+
